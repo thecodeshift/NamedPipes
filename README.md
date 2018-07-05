@@ -1,38 +1,11 @@
-# NamedPipes
-Named pipes implementation for inter-process communication on a Raspberry
+# Project Title
 
-### Prerequisites
+Named pipes implementation for inter-process communication on a Raspberry a Pi
 
-Visual Studio with C++ cross platform add-on
+## Getting Started
 
-### Installing
+There are multiple mechanisms to communicate between processes. Here we will show how to do a bidirectional communication through pipes
 
-Build the solution with visual studio and move the binnary produced to a raspberry folder
+The repository contains two examples in two diferent languages (C++ and Python)
 
-You can use FileZilla to move files to raspberry over SSH
-
-Open SSH connection with Raspberry Pi
-
-Give permitions to run ServerRPI.out
-
-```
-chmod 755 ServerRPI.out
-```
-
-## Running
-
-First run the server
-
-```
-./PipeTester.out s
-```
-
-Then run the client
-
-```
-./PipeTester.out c
-```
-
-## Acknowledgments
-
-* This code was used for a solution to communicate with an existing process without being intrusive to the existing process and with low impact
+Each project has its own readme to explain the solution setup
